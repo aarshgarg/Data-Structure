@@ -13,7 +13,7 @@ class node
      while(n!=NULL)
      {
          cout<<n->data<<endl;
-        // n=n->next;
+         n=n->next;
 
      }
      
