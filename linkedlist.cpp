@@ -8,6 +8,7 @@ class node
 // in this we make the user defined data type 
 // 
 };
+we can declare  the n pointer of class node dataype 
  void linklist(node* n)
  {
      while(n!=NULL)
@@ -21,7 +22,7 @@ class node
 int main()
 {
 
-
+//intialization of the node
  node * head= NULL;
  node * second= NULL;
  node * third=NULL;
