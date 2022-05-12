@@ -7,6 +7,7 @@ int main()
     cin >> n;
 
     int arr[n];
+    cout<<" Take Input in the array ";
     for (int i = 0; i < n; i++)
     {
         cin >> arr[i];
@@ -15,14 +16,12 @@ int main()
     int max = arr[0];
     for (int i = 0; i < n ; i++)
     {
-        if(arr[i] > max) max = arr[i];
+        if(arr[i] > max) 
+        max = arr[i];
     }
-
+    cout<<"The max val in array is=";
     cout << max << endl;
-    for (int i = 0; i < n; i++)
-    {
-        cout << arr[i];
-    }
+   
     return 0;
 
 }
